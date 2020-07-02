@@ -48,6 +48,7 @@
   #error "SERIAL_PORT cannot be 0. (Port 0 does not exist.) Please update your configuration."
 #elif SERIAL_PORT == -1
   //mp//#define MYSERIAL0 SerialUSB
+  //mp//#define MYSERIAL0 Serial
   #define MYSERIAL0 Serial
 #elif SERIAL_PORT == 1
   #define MYSERIAL0 MSerial1
